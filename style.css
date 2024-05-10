@@ -1,11 +1,128 @@
-header{
+
+
+*{
+    margin: 0;
+    padding: 0;
+}header{
     width: 100%;
     height: 25%;
-    background-color: rgb(59, 59, 252);
-    
+    background-color: rgb(184, 231, 186);
+    display: flex;
+    justify-content: space-evenly;
 }
-.boton{
+.boton {
     width: 50%;
     height: 25%;
+    background-color: rgb(184, 231, 186);
+    
+}
+
+button{
+    background-color: rgb(184, 231, 186);
+    border-radius: 50rem;
+    
+}
+
+.imagen{
+   border-radius: 50%;
+   width: 10rem;
+   height: 10rem;
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(194, 245, 119);
+}
+
+
+.lugares{
+    width: 100%;
+    background-color: rgb(184, 231, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.armenia{
+  height: 19rem;
+  width: 20rem;
+}
+
+.Barranquilla{
+    height: 19rem;
+    width: 20rem;
+    
+}
+
+.bogota{
+    margin-top: 1rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.cartagena{
+    height: 19rem;
+    width: 20rem;
+}
+
+.san_andres{
+    height: 19rem;
+    width: 20rem;
+}
+
+.santamarta{
+    height: 19rem;
+    width: 20rem;
+}
+
+.cali{
+    height: 19rem;
+    width: 20rem;
+}
+
+.Bucaramanga{
+    height: 19rem;
+    width: 20rem;
+}
+
+
+.guajira{
+    height: 19rem;
+    width: 20rem;
+}
+
+.manizales{
+    height: 19rem;
+    width: 20rem;
+}
+
+.guajira{
+    height: 19rem;
+    width: 20rem;
+}
+
+.pasto{
+    height: 19rem;
+    width: 20rem;
+}
+
+img{
+    border-radius: 0 0 25px 25px;
+    width: 18rem;
+    height: 16rem;
+
+}
+
+
+.titulo{
+    background-color: aquamarine;
+    width: 18rem;
     text-align: center;
+    border-radius: 31px 31px 0 0;
 }
